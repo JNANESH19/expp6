@@ -26,7 +26,7 @@ jobs:
 
     - name: Lint code (Quality Check)
       run: |
-        flake8 .
+        flake8.
 
     - name: Run tests with coverage
       run: |
